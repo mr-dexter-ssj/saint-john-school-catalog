@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #353434;
+}
+
+body.main div.nav{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+div.nav p{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+    align-self: center;
+    justify-self: center;
+}
+
+div.body{
+    align-self: center;
+    justify-self: center;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.body img{
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+}
+
+div.body audio{
+    margin-top: 30px;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+div.body .links a {
+    color: #2697f4;
+    font-family: sans-serif;
+    padding:20px
+}
